@@ -5,13 +5,10 @@ function App() {
     let checkbox = document.createElement("INPUT");
     checkbox.setAttribute("type", "checkbox");
     return(
-        <div>
+        <div className="todo-list">
             <TodoItem />
-
             <TodoItem />
-
             <TodoItem />
-
             <TodoItem />
         </div>
     );
